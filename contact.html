@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | The Smoke Store</title>
+  <meta name="description" content="Contact The Smoke Store - Bengaluru's premium vape lifestyle brand. Reach us on WhatsApp.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="age-modal" id="age-modal">
+    <div class="age-modal-content">
+      <div class="age-modal-logo">THE SMOKE STORE</div>
+      <p class="age-modal-text">You must be 21 or older to enter this site</p>
+      <div class="age-modal-buttons">
+        <button class="btn btn-primary btn-enter">I am 21+</button>
+        <button class="btn btn-outline btn-exit">Exit</button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">THE SMOKE STORE</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+      <div class="nav-right">
+        <a href="https://instagram.com/thesmokestore.in" target="_blank" class="nav-social">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20your%20products" class="btn btn-whatsapp" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+          WhatsApp
+        </a>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu-overlay"></div>
+  <div class="mobile-menu">
+    <i class="fas fa-times mobile-menu-close"></i>
+    <div class="mobile-menu-links">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+  </div>
+
+  <section class="short-banner">
+    <div class="container">
+      <h1 class="gradient-text">GET IN TOUCH</h1>
+      <p class="breadcrumb">
+        <a href="index.html">Home</a> / Contact
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <a href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20your%20products" class="glass-card contact-card" target="_blank">
+          <div class="contact-card-icon">💬</div>
+          <h3>WhatsApp Us</h3>
+          <p>Quick replies, always available</p>
+          <p>+91 98765 43210</p>
+        </a>
+        <a href="https://instagram.com/thesmokestore.in" class="glass-card contact-card" target="_blank">
+          <div class="contact-card-icon">📸</div>
+          <h3>Follow Us</h3>
+          <p>Stay updated on new drops</p>
+          <p>@thesmokestore.in</p>
+        </a>
+      </div>
+
+      <div class="glass-card contact-form-wrapper fade-in-up">
+        <h2 style="text-align: center; margin-bottom: 2rem;">Send Us a Message</h2>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us what you're looking for..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i>
+            Send Message
+          </button>
+        </form>
+      </div>
+
+      <div class="glass-card location-info">
+        <h3>📍 Our Location</h3>
+        <p>Bengaluru, Karnataka, India</p>
+        <p style="margin-top: 1rem; color: var(--text-muted);">We serve the entire Bengaluru metro area with discreet delivery.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta-banner">
+    <div class="container">
+      <h2 class="gradient-text">READY TO ELEVATE?</h2>
+      <p>Chat with us on WhatsApp and get your order today.</p>
+      <a href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20your%20products" class="btn btn-whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        Chat on WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="nav-logo">THE SMOKE STORE</a>
+          <p>Elevate Your Experience</p>
+          <p>Bengaluru's finest premium vape store.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com/thesmokestore.in" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20your%20products" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?category=disposable">Disposable</a></li>
+            <li><a href="products.html?category=pod">Pod Systems</a></li>
+            <li><a href="products.html?category=eliquid">E-Liquids</a></li>
+            <li><a href="products.html?category=accessories">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>Bengaluru, Karnataka, India</p>
+          <p><a href="https://wa.me/919876543210">+91 98765 43210</a></p>
+          <p><a href="https://instagram.com/thesmokestore.in">@thesmokestore.in</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-disclaimer">© 2025 The Smoke Store. For adults 21+ only. | This product contains nicotine. Not for sale to minors. | This website does not facilitate direct online purchase. All inquiries are handled via WhatsApp.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

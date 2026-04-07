@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Collection | The Smoke Store</title>
+  <meta name="description" content="Browse our premium vape products - disposables, pod systems, e-liquids and accessories.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="age-modal" id="age-modal">
+    <div class="age-modal-content">
+      <div class="age-modal-logo">THE SMOKE STORE</div>
+      <p class="age-modal-text">You must be 21 or older to enter this site</p>
+      <div class="age-modal-buttons">
+        <button class="btn btn-primary btn-enter">I am 21+</button>
+        <button class="btn btn-outline btn-exit">Exit</button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">THE SMOKE STORE</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="nav-right">
+        <a href="https://instagram.com/thesmokestore.in" target="_blank" class="nav-social">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20your%20products" class="btn btn-whatsapp" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+          WhatsApp
+        </a>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu-overlay"></div>
+  <div class="mobile-menu">
+    <i class="fas fa-times mobile-menu-close"></i>
+    <div class="mobile-menu-links">
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <section class="short-banner">
+    <div class="container">
+      <h1 class="gradient-text">OUR COLLECTION</h1>
+      <p class="breadcrumb">
+        <a href="index.html">Home</a> / Products
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="disposable">Disposables</button>
+        <button class="filter-btn" data-category="pod">Pod Systems</button>
+        <button class="filter-btn" data-category="eliquid">E-Liquids</button>
+        <button class="filter-btn" data-category="accessories">Accessories</button>
+      </div>
+
+      <div class="products-grid">
+        <a href="product-detail.html" class="glass-card product-card" data-category="disposable">
+          <span class="product-tag tag-bestseller">Bestseller</span>
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="Elf Bar Raya D3" class="product-image">
+          <div class="product-body">
+            <h3 class="product-name">Elf Bar Raya D3</h3>
+            <p class="product-flavor">Mango Ice</p>
+            <span class="product-puffs">25,000 Puffs</span>
+            <div class="product-price">₹2,499</div>
+            <div class="btn btn-whatsapp product-cta">
+              <i class="fab fa-whatsapp"></i>
+              Enquire on WhatsApp
+            </div>
+          </div>
+        </a>
+
+        <a href="product-detail.html" class="glass-card product-card" data-category="disposable">
+          <span class="product-tag tag-new">New</span>
+          <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&q=80" alt="IGET Soul B40000" class="product-image">
+          <div class="product-body">
+            <h3 class="product-name">IGET Soul B40000</h3>
+            <p class="product-flavor">Strawberry Kiwi</p>
+            <span class="product-puffs">40,000 Puffs</span>
+            <div class="product-price">₹2,999</div>
+            <div class="btn btn-whatsapp product-cta">
+              <i class="fab fa-whatsapp"></i>
+              Enquire on WhatsApp
+            </div>
+          </div>
+        </a>
+
+        <a href="product-detail.html" class="glass-card product-card" data-category="disposable">
+          <span class="product-tag tag-hot">Hot</span>
+          <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80" alt="Nasty Bar 8500" class="product-image">
+          <div class="product-body">
+            <h3 class="product-name">Nasty Bar 8500</h3>
+            <p class="product-flavor">Passion Fruit</p>
+            <span class="product-puffs">8,500 Puffs</span>
+            <div class="product-price">₹1,850</div>
+            <div class="btn btn-whatsapp product-cta">
+              <i class="fab fa-whatsapp"></i>
+              Enquire on WhatsApp
+            </div>
+          </div>
+        </a>
+
+        <a href="product-detail.html" class="glass-card product-card" data-category="pod">
+          <span class="product-tag tag-premium">Premium</span>
+          <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400&q=80" alt="Uwell Caliburn G4" class="product-image">
+          <div class="product-body">
+            <h3 class="product-name">Uwell Caliburn G4</h3>
+            <p class="product-flavor">Pod System</p>
+            <span class="product-puffs">Device</span>
+            <div class="product-price">₹3,499</div>
+            <div class="btn btn-whatsapp product-cta">
+              <i class="fab fa-whatsapp"></i>
+              Enquire on WhatsApp
+            </div>
+          </div>
+        </a>
+
+        <a href="product-detail.html" class="glass-card product-card" data-category="pod">
+          <span class="product-tag tag-popular">Popular</span>
+          <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=400&q=80" alt="Vaporesso Luxe QS" class="product-image">
+          <div class="product-body">
+            <h3 class="product-name">Vaporesso Luxe QS</h3>
+            <p class="product-flavor">Pod System</p>
+            <span class="product-puffs">Device</span>
+            <div class="product-price">₹3,499</div>
+            <div class="btn btn-whatsapp product-cta">
+              <i class="fab fa-whatsapp"></i>
+              Enquire on WhatsApp
+            </div>
+          </div>
+        </a>
+
+        <a href="product-detail.html" class="glass-card product-card" data-category="eliquid">
+          <span class="product-tag tag-smooth">Smooth</span>
+          <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&q=80" alt="Pod Salt Mango" class="product-image">
+          <div class="product-body">
+            <h3 class="product-name">Pod Salt Mango</h3>
+            <p class="product-flavor">Nic Salt</p>
+            <span class="product-puffs">50mg</span>
+            <div class="product-price">₹1,600</div>
+            <div class="btn btn-whatsapp product-cta">
+              <i class="fab fa-whatsapp"></i>
+              Enquire on WhatsApp
+            </div>
+          </div>
+        </a>
+
+        <a href="product-detail.html" class="glass-card product-card" data-category="disposable">
+          <span class="product-tag tag-icy">Icy</span>
+          <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?w=400&q=80" alt="Elf Bar Ice King" class="product-image">
+          <div class="product-body">
+            <h3 class="product-name">Elf Bar Ice King</h3>
+            <p class="product-flavor">Blueberry Ice</p>
+            <span class="product-puffs">30,000 Puffs</span>
+            <div class="product-price">₹2,699</div>
+            <div class="btn btn-whatsapp product-cta">
+              <i class="fab fa-whatsapp"></i>
+              Enquire on WhatsApp
+            </div>
+          </div>
+        </a>
+
+        <a href="product-detail.html" class="glass-card product-card" data-category="accessories">
+          <span class="product-tag tag-luxury">Luxury</span>
+          <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=400&q=80" alt="IQOS Iluma One" class="product-image">
+          <div class="product-body">
+            <h3 class="product-name">IQOS Iluma One</h3>
+            <p class="product-flavor">Heated Tobacco</p>
+            <span class="product-puffs">Device</span>
+            <div class="product-price">₹12,500</div>
+            <div class="btn btn-whatsapp product-cta">
+              <i class="fab fa-whatsapp"></i>
+              Enquire on WhatsApp
+            </div>
+          </div>
+        </a>
+
+        <div class="glass-card product-card hidden" data-category="disposable">
+          <span class="product-tag tag-new">New</span>
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="Elf Bar Raya D1" class="product-image">
+          <div class="product-body">
+            <h3 class="product-name">Elf Bar Raya D1</h3>
+            <p class="product-flavor">Peach Ice</p>
+            <span class="product-puffs">13,000 Puffs</span>
+            <div class="product-price">₹2,200</div>
+            <div class="btn btn-whatsapp product-cta">
+              <i class="fab fa-whatsapp"></i>
+              Enquire on WhatsApp
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card product-card hidden" data-category="pod">
+          <span class="product-tag tag-popular">Popular</span>
+          <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400&q=80" alt="JUUL Basic Kit" class="product-image">
+          <div class="product-body">
+            <h3 class="product-name">JUUL Basic Kit</h3>
+            <p class="product-flavor">Starter Kit</p>
+            <span class="product-puffs">Device</span>
+            <div class="product-price">₹2,999</div>
+            <div class="btn btn-whatsapp product-cta">
+              <i class="fab fa-whatsapp"></i>
+              Enquire on WhatsApp
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card product-card hidden" data-category="eliquid">
+          <span class="product-tag tag-smooth">Smooth</span>
+          <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&q=80" alt="Pod Salt Blue Razz" class="product-image">
+          <div class="product-body">
+            <h3 class="product-name">Pod Salt Blue Razz</h3>
+            <p class="product-flavor">Blue Raspberry</p>
+            <span class="product-puffs">50mg</span>
+            <div class="product-price">₹1,600</div>
+            <div class="btn btn-whatsapp product-cta">
+              <i class="fab fa-whatsapp"></i>
+              Enquire on WhatsApp
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card product-card hidden" data-category="disposable">
+          <span class="product-tag tag-hot">Hot</span>
+          <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80" alt="Nasty Bar 8500 Cola" class="product-image">
+          <div class="product-body">
+            <h3 class="product-name">Nasty Bar 8500 Cola</h3>
+            <p class="product-flavor">Cola Ice</p>
+            <span class="product-puffs">8,500 Puffs</span>
+            <div class="product-price">₹1,850</div>
+            <div class="btn btn-whatsapp product-cta">
+              <i class="fab fa-whatsapp"></i>
+              Enquire on WhatsApp
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="load-more-container">
+        <button class="btn btn-primary" id="load-more">
+          Load More
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cta-banner">
+    <div class="container">
+      <h2 class="gradient-text">READY TO ELEVATE?</h2>
+      <p>Chat with us on WhatsApp and get your order today.</p>
+      <a href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20your%20products" class="btn btn-whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        Chat on WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="nav-logo">THE SMOKE STORE</a>
+          <p>Elevate Your Experience</p>
+          <p>Bengaluru's finest premium vape store.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com/thesmokestore.in" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20your%20products" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?category=disposable">Disposable</a></li>
+            <li><a href="products.html?category=pod">Pod Systems</a></li>
+            <li><a href="products.html?category=eliquid">E-Liquids</a></li>
+            <li><a href="products.html?category=accessories">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>Bengaluru, Karnataka, India</p>
+          <p><a href="https://wa.me/919876543210">+91 98765 43210</a></p>
+          <p><a href="https://instagram.com/thesmokestore.in">@thesmokestore.in</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-disclaimer">© 2025 The Smoke Store. For adults 21+ only. | This product contains nicotine. Not for sale to minors. | This website does not facilitate direct online purchase. All inquiries are handled via WhatsApp.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>
+    document.getElementById('load-more').addEventListener('click', function() {
+      document.querySelectorAll('.product-card.hidden').forEach(function(card) {
+        card.classList.remove('hidden');
+      });
+      this.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
